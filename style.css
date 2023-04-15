@@ -1,0 +1,199 @@
+:root {
+    --nav-color: #A6C8DA;
+    --bg: #FFFFFF;
+    --color-notification: #A6C8DA;
+    --yellow: #D8A31D;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+
+.main {
+    background-color: var(--bg);
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--nav-color);
+    width: 100%;
+    height: 6.75em;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-right: -5%;
+    margin-left: 2%;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+    margin-top: 2em;
+    border: none;
+}
+
+.search input{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg);
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 20px;
+    border: none;
+}
+
+.logo img {
+    width: 120%;
+    height: 100%;
+    margin-right: 6.25em;
+}
+
+.icons {
+    width: 40%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.icons img {
+    margin-right: 8%;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    transition: transform ease-in-out 0.1s;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.tudo {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 2em;
+}
+
+.tudo h2{
+    margin-left: 2em;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -28%;
+    width: 50%;
+    text-align: start;
+}
+
+.pesquisa {
+    margin-top: 1%;
+}
+
+.pesquisa input{
+    margin-top: 1%;
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    background-color: transparent;
+}
+.news {
+    width: 5%;
+    margin-left: 25%;
+    margin-top: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.previous {
+    width: 10%;
+    margin-left: 25%;
+    margin-top: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.notifications {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5em;
+    background: #A6C8DA;
+    border-bottom: 2px solid #D8A31D;
+    box-shadow: 0px 5px 10px rgba(59, 5, 69, 0.5);
+    border-radius: 20px;
+}
+
+.notifications img {
+    margin-left: 5%;
+    padding: 0.5em;
+}
+
+.notifications h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.notifications button {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 2em;
+    background: rgba(216, 163, 29, 0.8);
+    border-bottom: 1px solid #1CB885;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao {
+    margin-top: 4em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    align-items: center;
+    width: 6em;
+    transform: scale(0.9);
+    transition: transform ease-in-out 0.2s;
+}
+
+.botao:hover {
+    transform: scale(1.0);
+    cursor: pointer;
+}
+
+#teste {
+    display: block;
+}
+
+.menu {
+    margin-top: 0.6%;
+    margin-left: 1%;
+    transition: transform ease-in-out 0.2s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.menu:hover {
+    margin-top: 0.6%;
+    margin-left: 1%;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.teste {
+    display: none;
+}
+
+.menu button {
+    border: none;
+    background-color: transparent;
+}
